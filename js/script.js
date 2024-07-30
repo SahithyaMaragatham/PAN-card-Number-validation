@@ -1,7 +1,7 @@
 document.getElementById('panForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
-    const pan = document.getElementById('pan').value.toUpperCase();
+    const pan = document.getElementById('pan').value;
     const result = document.getElementById('result');
     const panPattern = /^[A-Z]{5}[0-9]{4}[A-Z]{1}$/;
 
